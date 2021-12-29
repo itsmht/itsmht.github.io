@@ -625,7 +625,7 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="https://formsubmit.co/iamtalha.mht@gmail.com" method="POST" >
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
@@ -635,6 +635,7 @@
                   <label for="name">Your Email</label>
                   <input type="email" class="form-control" name="email" id="email" required>
                 </div>
+                <input type="hidden" name="_next" value="https://itsmht.me/thanks.html">
               </div>
               <div class="form-group">
                 <label for="name">Subject</label>
@@ -646,8 +647,6 @@
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
